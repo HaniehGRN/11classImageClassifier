@@ -1,10 +1,13 @@
 import numpy as np
 import cv2 as cv
 from keras import models
+from namex import export
+import sys
+
 
 classes = {0: '206', 1: 'bird', 2:'carpet', 3: 'cat', 4: 'cellphone', 5: 'dog',
-           6: 'fish', 7: 'horse', 8: 'laptop', 9: 'perfume', 10: 'sheep'}
-cnnModel = models.load_model("model/finalModel.keras")
+               6: 'fish', 7: 'horse', 8: 'laptop', 9: 'perfume', 10: 'sheep'}
+cnnModel = models.load_model("models/finalModel.keras")
 image_path = 'cow.png'
 img = cv.imread(image_path)  # Use IMREAD_COLOR if it's a color model
 n_img = cv.resize(img, (32, 32))  # Resize to the input shape expected by the model

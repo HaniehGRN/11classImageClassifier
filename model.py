@@ -43,9 +43,9 @@ def cnnModel():
     return cnnModel
 
 
-path = "/content/drive/MyDrive/Colab Notebooks/tamrin1_DL/dataset"
+path = "dataset"
 X_train, X_test, y_train, y_test = loadData(f'{path}/*/*')
 
 cnn = cnnModel()
 final_model = cnn.fit(x=X_train, y=y_train, batch_size=32, epochs=50, validation_data=(X_test, y_test))
-cnn.save("finalModel.keras")
+cnn.save("finalModell.keras")

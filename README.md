@@ -20,7 +20,7 @@ A deep learning desktop app with a modern Tkinter-based graphical interface that
 
 ## 🖼️ Interface Overview
 
-<img src="assets/gui_screenshot.png" width="600"/>
+<img src="assets/GUI.png" width="600"/>
 
 > ✅ User-friendly drag & drop interface powered by Tkinter Designer  
 > ✅ Instant image prediction after upload  

@@ -4,17 +4,17 @@ A deep learning desktop app with a modern Tkinter-based graphical interface that
 
 ## 📸 Supported Classes
 
-- 🐶 Dog  
-- 🐱 Cat  
-- 🐟 Fish  
-- 🚗 Car  
-- 💻 Laptop  
-- 🐑 Sheep  
-- 🐦 Bird  
-- 🏇 Horse  
-- 📱 Cellphone  
-- 🧴 Perfume  
-- 🧶 Carpet
+- Dog  
+- Cat  
+- Fish  
+- Car  
+- Laptop  
+- Sheep  
+- Bird  
+- Horse  
+- Cellphone  
+- Perfume  
+- Carpet
 
 ---
 

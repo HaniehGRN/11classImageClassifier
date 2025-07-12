@@ -18,7 +18,7 @@ A deep learning desktop app with a modern Tkinter-based graphical interface that
 
 ---
 
-## 🖼️ Interface Overview
+## Interface Overview
 
 <img src="assets/GUI.png" width="600"/>
 
